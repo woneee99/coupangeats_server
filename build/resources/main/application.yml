@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://15.164.171.98/CoupangEats?autoReconnect=true
+    username: test
+    password: test
+    driver-class-name: com.mysql.cj.jdbc.Driver
